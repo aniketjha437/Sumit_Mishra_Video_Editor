@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.grid-bg {
+  background-color: #f5e400;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-size: 80px 80px;
+  position: relative;
+}
+
+.grid-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.stroke-black {
+  -webkit-text-stroke: 2px black;
+}
