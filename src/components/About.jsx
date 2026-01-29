@@ -86,7 +86,7 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-yellow-400 transition-colors"
               >
-                <FaDiscord size={18} /> sumitmishra
+                <FaDiscord size={18} /> sumiitmiishra
               </a>
               <a
                 href="https://www.instagram.com/bysumiit?igsh=Mm93aHk1djRlZm94"
@@ -94,7 +94,7 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-yellow-400 transition-colors"
               >
-                <FaInstagram size={18} /> @sumit.edits
+                <FaInstagram size={18} /> @bysumit
               </a>
             </div>
           </div>

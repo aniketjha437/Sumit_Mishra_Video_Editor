@@ -16,13 +16,14 @@ export default function Navbar() {
         {/* LOGO */}
         <div className="flex items-center gap-2 sm:gap-3 cursor-pointer">
           <img
-            src="/sumit.png"
+            src="/sumit.jpeg"
             alt="Sumit"
-            className="w-9 h-9 sm:w-10 sm:h-10
-                       rounded-full object-cover
-                       grayscale hover:grayscale-0
-                       transition"
+            className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20
+             rounded-full object-cover
+             grayscale hover:grayscale-0
+             transition"
           />
+
           <h1 className="text-lg sm:text-xl tracking-wide font-extrabold uppercase font-['Bebas_Neue']">
             SUMIT
           </h1>
@@ -36,7 +37,7 @@ export default function Navbar() {
           <a href="#work" className="hover:opacity-70 transition">
             WORK
           </a>
-          <a href="#contact" className="hover:opacity-70 transition">
+          <a href="#about" className="hover:opacity-70 transition">
             CONTACT
           </a>
         </div>

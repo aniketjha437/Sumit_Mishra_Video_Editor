@@ -12,7 +12,10 @@ const shortFormVideos = [
 
 export default function ShortForm() {
   return (
-    <section className="bg-[#0b0b0b] text-white py-14 sm:py-18 md:py-24">
+    <section
+      id="work"
+      className="bg-[#0b0b0b]  text-white py-14 sm:py-18 md:py-24"
+    >
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center px-4 sm:px-6 mb-10 sm:mb-14">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-['Bebas_Neue'] tracking-wider text-yellow-400">
