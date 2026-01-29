@@ -31,7 +31,7 @@ export default function About() {
 
             {/* IMAGE */}
             <img
-              src="/sumit.png"
+              src="/sumit.jpeg"
               alt="Sumit"
               className="w-full h-[300px] sm:h-[340px] md:h-[380px] object-contain rounded-2xl bg-black drop-shadow-[0_25px_40px_rgba(0,0,0,0.8)]"
             />
