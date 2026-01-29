@@ -14,7 +14,7 @@ export default function ShortForm() {
   return (
     <section
       id="work"
-      className="bg-[#0b0b0b]  text-white py-14 sm:py-18 md:py-24"
+      className="bg-[#0b0b0b] text-white py-14 sm:py-18 md:py-24"
     >
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center px-4 sm:px-6 mb-10 sm:mb-14">
@@ -32,7 +32,7 @@ export default function ShortForm() {
           max-w-6xl mx-auto
           grid gap-4 sm:gap-6 md:gap-8
           px-4 sm:px-6
-          grid-cols-[repeat(auto-fit,minmax(150px,1fr))]
+          grid-cols-1 sm:grid-cols-2
         "
       >
         {shortFormVideos.map((id) => (
